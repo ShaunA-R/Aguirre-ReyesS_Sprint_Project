@@ -13,13 +13,3 @@ submitbtn.addEventListener('click', function(){
     
 });
 
-
-function getData(num1, num2){
-    fetch(`https://magpantayjallforoneapi.azurewebsites.net/MiniChallenge/MiniCh4/${num1.value}/${num2.value}`)
-    .then(response => response.text())
-    .then(data => {
-        result.innerHTML = data;
-
-        console.log(data)
-    });
-}

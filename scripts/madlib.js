@@ -1,41 +1,31 @@
-let adj1 = document.getElementById('adj1'); 
-let noun1 = document.getElementById('noun1');
-let verb1 = document.getElementById('verb1');
-let nounPlural = document.getElementById('nounPlural');
-let noun2 = document.getElementById('noun2');
-let place = document.getElementById('place');
+let adjective = document.getElementById('adjective'); 
+let animal = document.getElementById('animal');
+let action1 = document.getElementById('action1');
+let verb = document.getElementById('verb');
+let food = document.getElementById('food');
+let color = document.getElementById('color');
 let verb2 = document.getElementById('verb2');
-let vehicle = document.getElementById('vehicle');
-let adj2 = document.getElementById('adj2');
-let noun3 = document.getElementById('noun3');
+let item = document.getElementById('item');
+let number = document.getElementById('number');
+let animal1 = document.getElementById('nanimal');
+let feeling = document.getElementById('feeling')
 let submitbtn = document.getElementById('submitbtn');
 let result = document.getElementById('result');
 
 submitbtn.addEventListener('click',function(){
 
     let miniCh5Model = {
-        adj1: adj1.value,
-        noun1: noun1.value,
-        verb1: verb1.value,
-        nounPlural: nounPlural.value,
-        noun2: noun2.value,
-        place: place.value,
-        verb2: verb2.value,
-        vehicle: vehicle.value,
-        adj2: adj2.value,
-        noun3: noun3.value
+        adjective: adjective.value,
+        animal: animal.value,
+        action1: action1.value,
+        verb: verb.value,
+        food: food.value,
+        color: color.value,
+        item: item.value,
+        number: number.value,
+        animal1: animal1.value,
+        feeling: feeling.value
     };
     modelMethod(miniCh5Model);
 });
 
-
-function modelMethod(url, model)
-{
-
-
-    fetch("https://magpantayjallforoneapi.azurewebsites.net/MiniChallenge/MiniCh5/{name}/{adj1.value}/{noun1}/{verb1}/{nounPlural}/{noun2}/{place}/{verb2}/{vehicle}/{adj2}/{noun3}")
-    .then(response => response.text())
-    .then(data => result.textContent = data);
-
-    console.log(url, model)
-}

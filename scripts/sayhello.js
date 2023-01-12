@@ -24,13 +24,3 @@ function urlCall(url){
     )
 }
 
-function helloApi(nameInput){
-    var letters = /^[A-Za-z]+$/;
-    if(nameInput.value.match(letters)){
-        savedInput = nameInput.value;
-        sayHelloUrl = "https://scottsallforone.azurewebsites.net/AllForOne/miniCh1/" + savedInput
-        urlCall(sayHelloUrl)
-    }else{
-        helloReturn.textContent = "Enter a valid response";
-    }
-}

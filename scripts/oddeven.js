@@ -12,12 +12,3 @@ submitbtn.addEventListener('click', function(){
 });
 
 
-function getData(){
-    fetch(`https://magpantayjallforoneapi.azurewebsites.net/MiniChallenge/MiniCh6/${num.value}`)
-    .then(response => response.text())
-    .then(data => {
-        result.textContent =data;
-
-        console.log(data)
-    });
-}
