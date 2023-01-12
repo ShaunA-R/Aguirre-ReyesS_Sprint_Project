@@ -1,3 +1,63 @@
-body {
-    background-color: rgb(73, 73, 73);
+.backGround {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+body {
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.newTitle{
+    
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    top: 500px;
+    
+}
+.bgtxt{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.txtColor {
+
+    color: black;
+    font-size: 45px;
+}
+
+.txtColor2 {
+
+    color: white;
+    font-size: 22px;
+}
+
+
+.nav-link {
+
+
+    align-items: flex-end;
+}
+
+ #styleNow {
+
+    float: right;
+    position: relative;
+    top: 150px;
+    
+ }

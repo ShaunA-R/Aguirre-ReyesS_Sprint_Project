@@ -4,7 +4,6 @@ let helloReturn = document.getElementById("helloReturn");
 
 let helloSubBtn = document.getElementById("helloSubBtn");
 
-// console.log(nameInput, helloReturn, helloSubBtn);
 let savedInput ="";
 let sayHelloUrl = "";
 
