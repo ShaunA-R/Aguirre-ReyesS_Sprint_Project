@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: gray;
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,10 +20,12 @@ body {
     background-position: center;
     background-size: cover;
     text-align: center;
+  
     top: 500px;
     
 }
 .bgtxt{
+   
     height: 100%;
     width: 100%;
     background-position: center;
@@ -43,8 +45,10 @@ body {
 
 .txtColor2 {
 
+    position: relative;
+    top: px;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 
@@ -61,3 +65,46 @@ body {
     top: 150px;
     
  }
+
+.container-fluid {
+
+    margin: 0px !important;
+    padding: 0px !important;
+ }
+
+ .enterBtn1 {
+
+
+    position: relative;
+
+    left: 249px;
+ }
+
+ #userNum1 {
+
+    padding-left: 40px;
+    
+    align-content: space-between;
+    
+
+ }
+
+ #userNum2 {
+
+    position: absolute;
+    
+    left: 100px;
+
+ }
+
+ .txtbg2{
+
+
+   
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+    border: 25px;
+}
